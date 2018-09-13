@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5_1</title>
+</head>
+<body>
+    <canvas width="500" height="300" id="canvas"></canvas> 
+		<script>
+            var canvas = document.getElementById('canvas'); 
+		    var c = canvas.getContext('2d');     
+            c.arc(60,50,40,0,2*Math.PI,true);
+            c.fillStyle='#53BDBD';
+            c.fill();
+            c.stroke();
+            c.beginPath();
+            c.rect(300,30,150,150);
+            c.fillStyle='#ff0000';
+            c.fill();
+            c.stroke();
+            c.beginPath();
+            c.rect(50,150,100,50);
+            c.fillStyle='#53BD53';
+            c.fill();
+            c.stroke();
+        </script> 
+</body>
+</html>
